@@ -202,14 +202,14 @@ languages:
         - name: "Consulting"
           url: /consulting/
           weight: 1
-        - name: "AI Playbook"
-          url: /ai-playbook/
-          weight: 2
         - name: "Interim-Management"
           url: /interim-management/
-          weight: 3
+          weight: 2
         - name: "Karriere"
           url: /karriere/
+          weight: 3
+        - name: "Playbook AI"
+          url: /ai-playbook/
           weight: 4
         - name: "Über uns"
           url: /ueber-uns/
@@ -218,14 +218,14 @@ languages:
         - name: "Consulting"
           url: /consulting/
           weight: 1
-        - name: "AI Playbook"
-          url: /ai-playbook/
-          weight: 2
         - name: "Interim-Management"
           url: /interim-management/
-          weight: 3
+          weight: 2
         - name: "Karriere"
           url: /karriere/
+          weight: 3
+        - name: "Playbook AI"
+          url: /ai-playbook/
           weight: 4
         - name: "Über uns"
           url: /ueber-uns/
@@ -258,14 +258,14 @@ languages:
         - name: "Consulting"
           url: /consulting/
           weight: 1
-        - name: "AI Playbook"
-          url: /ai-playbook/
-          weight: 2
         - name: "Interim Management"
           url: /interim-management/
-          weight: 3
+          weight: 2
         - name: "Careers"
           url: /careers/
+          weight: 3
+        - name: "Playbook AI"
+          url: /ai-playbook/
           weight: 4
         - name: "About"
           url: /about/
@@ -274,14 +274,14 @@ languages:
         - name: "Consulting"
           url: /consulting/
           weight: 1
-        - name: "AI Playbook"
-          url: /ai-playbook/
-          weight: 2
         - name: "Interim Management"
           url: /interim-management/
-          weight: 3
+          weight: 2
         - name: "Careers"
           url: /careers/
+          weight: 3
+        - name: "Playbook AI"
+          url: /ai-playbook/
           weight: 4
         - name: "About"
           url: /about/
