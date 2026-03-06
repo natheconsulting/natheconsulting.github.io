@@ -9,6 +9,7 @@ pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
 metaDataFormat: yaml
+
 languageCode: de-de
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
