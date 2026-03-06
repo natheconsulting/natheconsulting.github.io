@@ -19,7 +19,7 @@ hero:
   background:
     background_image: "images/photos/home/home-large.webp"
     background_image_blend_mode: "overlay"
-    background_gradient: false
+    background_gradient: true
     opacity: 1
   image:
     image: false
@@ -49,3 +49,7 @@ outro:
 blog:
   enabled: false
 ---
+
+<div style="background:#e38f18;color:#fff;text-align:center;padding:1.2rem 1rem;font-size:1.1rem;font-weight:600;letter-spacing:0.05em;">
+  🚧 Diese Website befindet sich im Aufbau. Inhalte und Funktionen sind noch nicht vollständig. 🚧
+</div>

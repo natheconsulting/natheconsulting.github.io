@@ -49,3 +49,7 @@ outro:
 blog:
   enabled: false
 ---
+
+<div style="background:#e38f18;color:#fff;text-align:center;padding:1.2rem 1rem;font-size:1.1rem;font-weight:600;letter-spacing:0.05em;">
+  🚧 This website is currently under construction. Content and features are not yet complete. 🚧
+</div>
