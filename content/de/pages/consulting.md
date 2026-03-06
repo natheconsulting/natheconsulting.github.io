@@ -1,10 +1,10 @@
 ---
-title: "Leistungen"
-url: "leistungen"
-description: "Unsere Leistungen für Ihr Unternehmen."
+title: "Consulting"
+url: "consulting"
+description: "Consulting-Leistungen und Kompetenzen von Nathe Consulting."
 ---
 
-# Leistungen
+# Consulting
 
 Absolut. Hier ist der Bericht im Markdown-Format:
 

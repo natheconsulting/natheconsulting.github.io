@@ -189,7 +189,7 @@ params:
   bottom:
     enabled: true
     enable_bottom_menu: true
-    copyright_text: "© 2025 Nathe Consulting"
+    copyright_text: "© 2026 Nathe Consulting"
     show_rss_icon: true
 
 languages:
@@ -199,37 +199,37 @@ languages:
     contentDir: content/de
     menu:
       main:
-        - name: "Leistungen"
-          url: /leistungen/
+        - name: "Consulting"
+          url: /consulting/
           weight: 1
-        - name: "Kompetenzen"
-          url: /kompetenzen/
-          weight: 2
-        - name: "Karriere"
-          url: /karriere/
-          weight: 3
-        - name: "Playbook AI"
+        - name: "AI Playbook"
           url: /ai-playbook/
-          weight: 4
+          weight: 2
         - name: "Interim-Management"
           url: /interim-management/
-          weight: 5
-        - name: "Über uns"
-          url: /ueber-uns/
-          weight: 6
-      footer_primary:
-        - name: "Leistungen"
-          url: /leistungen/
-          weight: 1
-        - name: "Kompetenzen"
-          url: /kompetenzen/
-          weight: 2
+          weight: 3
         - name: "Karriere"
           url: /karriere/
-          weight: 3
+          weight: 4
         - name: "Über uns"
           url: /ueber-uns/
+          weight: 5
+      footer_primary:
+        - name: "Consulting"
+          url: /consulting/
+          weight: 1
+        - name: "AI Playbook"
+          url: /ai-playbook/
+          weight: 2
+        - name: "Interim-Management"
+          url: /interim-management/
+          weight: 3
+        - name: "Karriere"
+          url: /karriere/
           weight: 4
+        - name: "Über uns"
+          url: /ueber-uns/
+          weight: 5
       footer_secondary:
         - name: "Kontakt"
           url: /contact/
@@ -255,37 +255,37 @@ languages:
     contentDir: content/en
     menu:
       main:
-        - name: "Services"
-          url: /services/
+        - name: "Consulting"
+          url: /consulting/
           weight: 1
-        - name: "Competencies"
-          url: /competencies/
-          weight: 2
-        - name: "Careers"
-          url: /careers/
-          weight: 3
         - name: "AI Playbook"
           url: /ai-playbook/
-          weight: 4
+          weight: 2
         - name: "Interim Management"
           url: /interim-management/
-          weight: 5
-        - name: "About"
-          url: /about/
-          weight: 6
-      footer_primary:
-        - name: "Services"
-          url: /services/
-          weight: 1
-        - name: "Competencies"
-          url: /competencies/
-          weight: 2
+          weight: 3
         - name: "Careers"
           url: /careers/
-          weight: 3
+          weight: 4
         - name: "About"
           url: /about/
+          weight: 5
+      footer_primary:
+        - name: "Consulting"
+          url: /consulting/
+          weight: 1
+        - name: "AI Playbook"
+          url: /ai-playbook/
+          weight: 2
+        - name: "Interim Management"
+          url: /interim-management/
+          weight: 3
+        - name: "Careers"
+          url: /careers/
           weight: 4
+        - name: "About"
+          url: /about/
+          weight: 5
       footer_secondary:
         - name: "Contact"
           url: /contact/
