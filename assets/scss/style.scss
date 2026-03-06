@@ -1,0 +1,209 @@
+// ================================================
+// assets/scss/style.scss
+// Hugo Advance – Hauptdatei
+// Corporate Design: Amber als Primärfarbe
+// ================================================
+
+// 1. Corporate Design Tokens – ZUERST importieren
+@import "brand";           // _brand.scss: Amber-Palette & Typografie-Variablen
+
+// 2. Hugo Advance Framework (Bootstrap + alle Theme-Komponenten)
+@import "framework/index"; // beinhaltet theme/variables, Bootstrap und alle Zerostatic-Stile
+
+
+// ================================================
+// PRIMÄRFARBE – AMBER ANWENDUNGEN
+// ================================================
+
+// Links
+a {
+  color: #e38f18;
+  &:hover { color: #c97a10; }
+}
+
+// Header-Menü: Bebas Neue
+.menu-main {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+// Aktive Navigation
+.nav-item.active > a,
+.nav-link:hover {
+  color: #e38f18;
+}
+
+// Border-Akzente auf Karten
+.card,
+.service-item {
+  border-top: 3px solid #e38f18;
+}
+
+// Highlight-Linie (z.B. Insight-Artikel)
+.highlight-border {
+  border-left: 4px solid #e38f18;
+}
+
+
+// ================================================
+// BUTTONS
+// ================================================
+
+.btn-primary {
+  background-color: #e38f18;
+  border-color:     #e38f18;
+  color:            #ffffff;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      500;
+  letter-spacing:   0.06em;
+  text-transform:   uppercase;
+  border-radius:    6px;
+
+  &:hover, &:focus {
+    background-color: #c97a10;
+    border-color:     #c97a10;
+    color:            #ffffff;
+  }
+}
+
+.btn-outline-primary {
+  background-color: transparent;
+  border:           2px solid #e38f18;
+  color:            #e38f18;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      500;
+  letter-spacing:   0.06em;
+  text-transform:   uppercase;
+  border-radius:    6px;
+
+  &:hover {
+    background-color: #e38f18;
+    color:            #ffffff;
+  }
+}
+
+// Ghost Button (auf farbigem Hintergrund)
+.btn-ghost-white {
+  background-color: transparent;
+  border:           2px solid rgba(255,255,255,0.6);
+  color:            #ffffff;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      500;
+  letter-spacing:   0.06em;
+  text-transform:   uppercase;
+  border-radius:    6px;
+
+  &:hover {
+    background-color: rgba(255,255,255,0.15);
+    border-color:     rgba(255,255,255,0.9);
+  }
+}
+
+
+// ================================================
+// HINTERGRUND-SEKTIONEN
+// Abwechselnde Abschnitte auf Seiten
+// ================================================
+
+.section-white {
+  background-color: #ffffff;
+}
+
+.section-offwhite {
+  background-color: #faf4f4;
+}
+
+.section-sage {
+  background-color: #b3d2cd;
+  color: #2a2a2a;
+
+  h2, h3 { color: #2a2a2a; }
+}
+
+// Amber Sektion (für Hero-ähnliche Zwischenabschnitte)
+.section-amber {
+  background-color: #e38f18;
+  color: #ffffff;
+
+  h1, h2, h3 { color: #ffffff; }
+  p           { color: rgba(255,255,255,0.9); }
+
+  .btn-primary {
+    background-color: #ffffff;
+    color:            #e38f18;
+    &:hover { background-color: #faf4f4; }
+  }
+}
+
+// Mint Sektion (sanfte Highlighted Abschnitte)
+.section-mint {
+  background-color: #cdedbe;
+  color: #2a2a2a;
+}
+
+
+// ================================================
+// TAGS & BADGES
+// ================================================
+
+.tag,
+.badge-category {
+  background-color: #cdedbe;   // Mint Light
+  color:            #2a2a2a;
+  font-family:      'Roboto', sans-serif;
+  font-size:        0.7rem;
+  font-weight:      700;
+  letter-spacing:   0.1em;
+  text-transform:   uppercase;
+  padding:          0.2rem 0.65rem;
+  border-radius:    4px;
+}
+
+.tag-amber {
+  background-color: #e38f18;
+  color:            #ffffff;
+}
+
+
+// ================================================
+// FOOTER
+// ================================================
+
+.footer {
+  background-color: #162035;
+  color:            #f0f4f8;
+
+  a {
+    color: rgba(240,244,248,0.75);
+    &:hover { color: #ffffff; }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.65);
+    font-size: 0.82rem;
+  }
+}
+
+
+// ================================================
+// DARK MODE OVERRIDES
+// ================================================
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1f1a10;
+    color:      #f5ede0;
+  }
+
+  a {
+    color: #f5c06a;
+    &:hover { color: #e38f18; }
+  }
+
+  .card,
+  .service-item {
+    background:   #2e2510;
+    border-color: #f5c06a;
+  }
+}

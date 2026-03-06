@@ -1,0 +1,148 @@
+// ================================================
+// CORPORATE DESIGN – Brand Tokens
+// Hugo Advance Theme
+// Variante: Amber als Primärfarbe
+// ================================================
+
+
+// ----------------------------------------------------
+// FARBEN
+// ----------------------------------------------------
+
+// Basis-Palette
+$color-amber:         #e38f18;   // Amber – Primärfarbe
+$color-amber-dark:    #c97a10;   // Amber dunkel – Hover, aktive Zustände
+$color-amber-light:   #f5c06a;   // Amber hell – Highlights, Hover-BG
+$color-sage-light:    #b3d2cd;   // Sage Light – Sekundär-Akzente, Karten-BG
+$color-sage-mid:      #7fa095;   // Sage Mid – Ergänzungsfarbe, Links on White
+$color-mint-light:    #cdedbe;   // Mint Light – Badges, Tags, Highlights
+$color-offwhite:      #faf4f4;   // Off-White – Seitenhintergrund
+
+// Rollen
+$color-primary:       $color-amber;         // #e38f18 – Hauptfarbe
+$color-primary-dark:  $color-amber-dark;    // #c97a10 – Hover
+$color-primary-light: $color-amber-light;   // #f5c06a – sanfte Akzente
+$color-secondary:     $color-sage-mid;      // #7fa095 – Sekundär
+$color-accent:        $color-mint-light;    // #cdedbe – Badges, Tags
+$color-background:    $color-offwhite;      // #faf4f4 – Seite
+$color-surface:       #ffffff;              // Karten, Panels
+$color-surface-alt:   $color-sage-light;    // #b3d2cd – Abwechselnde Sektionen
+
+$color-text:          #2a2a2a;
+$color-text-muted:    #5a6b66;
+$color-border:        darken($color-offwhite, 6%);
+
+$color-header-bg:     #ffffff;
+$color-footer-bg:     $color-amber;
+$color-footer-text:   #ffffff;
+
+
+// ----------------------------------------------------
+// DARK MODE
+// ----------------------------------------------------
+
+$color-dark-background:   #1f1a10;
+$color-dark-surface:      #2e2510;
+$color-dark-primary:      $color-amber-light;   // heller im Dark Mode
+$color-dark-text:         #f5ede0;
+$color-dark-text-muted:   #b89a60;
+$color-dark-border:       #3a2e15;
+$color-dark-header-bg:    #1f1a10;
+$color-dark-footer-bg:    #1f1a10;
+
+
+// ----------------------------------------------------
+// TYPOGRAFIE
+// ----------------------------------------------------
+
+$font-heading-display:  'Bebas Neue', sans-serif;   // H1, H2
+$font-heading-sub:      'Roboto', sans-serif;        // H3–H6
+$font-body:             'Arsenal', sans-serif;        // Fließtext, UI
+
+$font-size-base:   1rem;
+$font-size-sm:     0.875rem;
+$font-size-lg:     1.125rem;
+$font-size-h1:     3.5rem;
+$font-size-h2:     2.5rem;
+$font-size-h3:     1.5rem;
+$font-size-h4:     1.25rem;
+$font-size-h5:     1.1rem;
+$font-size-h6:     1rem;
+
+$line-height-base:     1.65;
+$line-height-heading:  1.1;
+$line-height-sub:      1.3;
+
+$font-weight-light:   300;
+$font-weight-normal:  400;
+$font-weight-medium:  500;
+$font-weight-bold:    700;
+
+$letter-spacing-display: 0.04em;
+$letter-spacing-body:    0.01em;
+
+
+// ----------------------------------------------------
+// ABSTÄNDE & RADIEN
+// ----------------------------------------------------
+
+$border-radius-sm:   4px;
+$border-radius:      6px;
+$border-radius-lg:   10px;
+$border-radius-pill: 50px;
+
+$spacing-section:    5rem;
+$spacing-card:       1.75rem;
+
+
+// ----------------------------------------------------
+// BUTTONS
+// ----------------------------------------------------
+
+$btn-primary-bg:        $color-amber;
+$btn-primary-color:     #ffffff;
+$btn-primary-hover-bg:  $color-amber-dark;
+
+$btn-secondary-bg:      transparent;
+$btn-secondary-color:   $color-amber;
+$btn-secondary-border:  $color-amber;
+
+$btn-border-radius:     $border-radius;
+$btn-font-family:       $font-heading-sub;
+$btn-font-weight:       $font-weight-medium;
+$btn-letter-spacing:    0.06em;
+$btn-text-transform:    uppercase;
+
+
+// ------------------------------------------------
+// HEADING & BODY RULES
+// ------------------------------------------------
+
+h1, h2 {
+  font-family:    $font-heading-display;
+  letter-spacing: $letter-spacing-display;
+  line-height:    $line-height-heading;
+  font-weight:    $font-weight-normal;
+}
+
+h3, h4, h5, h6 {
+  font-family:  $font-heading-sub;
+  font-weight:  $font-weight-bold;
+  line-height:  $line-height-sub;
+}
+
+// Bebas Neue hat keinen Kursivschnitt → Fallback
+h1 em, h2 em {
+  font-family: 'Roboto', sans-serif;
+  font-style:  italic;
+  font-weight: $font-weight-normal;
+}
+
+body {
+  font-family:    $font-body;
+  font-size:      $font-size-base;
+  line-height:    $line-height-base;
+  color:          $color-text;
+  background:     $color-background;
+  letter-spacing: $letter-spacing-body;
+}

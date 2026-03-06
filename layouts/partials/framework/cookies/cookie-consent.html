@@ -1,0 +1,164 @@
+<!-- Cookie Consent – DSGVO/GDPR-konform (orestbida/cookieconsent) -->
+<!-- Opt-in Modus: Analytics nur nach ausdrücklicher Zustimmung -->
+
+{{ if .Site.Params.cookie_banner.enabled }}
+<link rel="stylesheet" href="{{ "css/cookieconsent.css" | relLangURL }}">
+{{ $cookieConsent := resources.Get "js/framework/cookieconsent.js" }}
+{{ $cookieConsentModeBundle := slice $cookieConsent | resources.Concat "js/cookieConsentModeBundle.js" }}
+<script type="text/javascript" src="{{ ($cookieConsentModeBundle | fingerprint).RelPermalink }}"></script>
+
+<script>
+    window.addEventListener('load', function () {
+
+        var cc = initCookieConsent();
+
+        cc.run({
+            current_lang: '{{ .Site.Language.Lang }}',
+            auto_language: 'document',
+            autoclear_cookies: true,
+            page_scripts: true,
+            mode: 'opt-in',
+
+            onFirstAction: function (user_preferences, cookie) {},
+            onAccept: function (cookie) {},
+
+            onChange: function (cookie, changed_preferences) {
+                if (!cc.allowedCategory('analytics')) {
+                    typeof gtag === 'function' && gtag('consent', 'update', {
+                        'analytics_storage': 'denied'
+                    });
+                }
+            },
+
+            languages: {
+                'de': {
+                    consent_modal: {
+                        title: 'Wir verwenden Cookies',
+                        description: 'Diese Website verwendet technisch notwendige Cookies für den ordnungsgemäßen Betrieb. Analyse-Cookies werden nur mit Ihrer ausdrücklichen Zustimmung gesetzt. <button type="button" data-cc="c-settings" class="cc-link">Einstellungen</button>',
+                        primary_btn: {
+                            text: 'Alle akzeptieren',
+                            role: 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Nur notwendige',
+                            role: 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Cookie-Einstellungen',
+                        save_settings_btn: 'Einstellungen speichern',
+                        accept_all_btn: 'Alle akzeptieren',
+                        reject_all_btn: 'Alle ablehnen',
+                        close_btn_label: 'Schließen',
+                        cookie_table_headers: [
+                            { col1: 'Name' },
+                            { col2: 'Anbieter' },
+                            { col3: 'Laufzeit' },
+                            { col4: 'Zweck' }
+                        ],
+                        blocks: [
+                            {
+                                title: 'Cookie-Nutzung',
+                                description: 'Wir verwenden Cookies, um den grundlegenden Betrieb dieser Website zu gewährleisten. Für Analyse-Cookies bitten wir um Ihre Zustimmung. Weitere Informationen entnehmen Sie unserer <a href="/privacy/" class="cc-link">Datenschutzerklärung</a>.'
+                            },
+                            {
+                                title: 'Technisch notwendige Cookies',
+                                description: 'Diese Cookies sind für das ordnungsgemäße Funktionieren der Website zwingend erforderlich. Sie können nicht deaktiviert werden und speichern keine personenbezogenen Daten.',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true
+                                },
+                                cookie_table: [
+                                    {
+                                        col1: 'cc_cookie',
+                                        col2: 'Nathe Consulting',
+                                        col3: '6 Monate',
+                                        col4: 'Speichert Ihre Cookie-Einstellungen'
+                                    }
+                                ]
+                            },
+                            {
+                                title: 'Analyse-Cookies',
+                                description: 'Diese Cookies ermöglichen eine anonymisierte Auswertung der Website-Nutzung zur Verbesserung unseres Angebots. Alle Daten werden ohne Personenbezug erhoben.',
+                                toggle: {
+                                    value: 'analytics',
+                                    enabled: false,
+                                    readonly: false
+                                }
+                            },
+                            {
+                                title: 'Weitere Informationen',
+                                description: 'Bei Fragen zu unserer Cookie-Richtlinie wenden Sie sich bitte über unser <a class="cc-link" href="/contact/">Kontaktformular</a> an uns.'
+                            }
+                        ]
+                    }
+                },
+                'en': {
+                    consent_modal: {
+                        title: 'We use cookies',
+                        description: 'This website uses strictly necessary cookies required for its operation. Analytical cookies are only set with your explicit consent. <button type="button" data-cc="c-settings" class="cc-link">Manage settings</button>',
+                        primary_btn: {
+                            text: 'Accept all',
+                            role: 'accept_all'
+                        },
+                        secondary_btn: {
+                            text: 'Necessary only',
+                            role: 'accept_necessary'
+                        }
+                    },
+                    settings_modal: {
+                        title: 'Cookie preferences',
+                        save_settings_btn: 'Save settings',
+                        accept_all_btn: 'Accept all',
+                        reject_all_btn: 'Reject all',
+                        close_btn_label: 'Close',
+                        cookie_table_headers: [
+                            { col1: 'Name' },
+                            { col2: 'Provider' },
+                            { col3: 'Expiry' },
+                            { col4: 'Purpose' }
+                        ],
+                        blocks: [
+                            {
+                                title: 'Cookie usage',
+                                description: 'We use cookies to ensure the basic operation of this website. For analytical cookies we ask for your consent. Please read our <a href="/en/privacy/" class="cc-link">Privacy Policy</a> for further details.'
+                            },
+                            {
+                                title: 'Strictly necessary cookies',
+                                description: 'These cookies are essential for the proper functioning of the website. They cannot be disabled and do not store any personal data.',
+                                toggle: {
+                                    value: 'necessary',
+                                    enabled: true,
+                                    readonly: true
+                                },
+                                cookie_table: [
+                                    {
+                                        col1: 'cc_cookie',
+                                        col2: 'Nathe Consulting',
+                                        col3: '6 months',
+                                        col4: 'Stores your cookie preferences'
+                                    }
+                                ]
+                            },
+                            {
+                                title: 'Analytics cookies',
+                                description: 'These cookies allow us to analyse website usage anonymously and improve our services.',
+                                toggle: {
+                                    value: 'analytics',
+                                    enabled: false,
+                                    readonly: false
+                                }
+                            },
+                            {
+                                title: 'More information',
+                                description: 'For any queries regarding our cookie policy, please <a class="cc-link" href="/en/contact/">contact us</a>.'
+                            }
+                        ]
+                    }
+                }
+            }
+        });
+    });
+</script>
+{{ end }}

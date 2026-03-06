@@ -1,0 +1,308 @@
+baseURL: "https://natheconsulting.github.io"
+title: Nathe Consulting
+
+pagination:
+  pagerSize: 8
+
+enableGitInfo: false
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true
+metaDataFormat: yaml
+languageCode: de-de
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: false
+
+params:
+  # Suchmaschinen-Indexierung verhindern (auf true lassen bis zur Freigabe)
+  noindex: true
+
+  # ----------------------------------------------------
+  # GOOGLE FONTS (self-hosted via Hugo Pipes – DSGVO-konform)
+  # ----------------------------------------------------
+  google_fonts:
+    - name: "Bebas Neue"
+      weights: "400"
+    - name: "Roboto"
+      weights: "400,500,700"
+    - name: "Arsenal"
+      weights: "400,400i,700"
+
+  font_family_base:     "'Arsenal', sans-serif"
+  font_family_heading:  "'Bebas Neue', sans-serif"
+
+  colors:
+    # light
+    base_bg: "#faf4f4"
+    base_bg_2: "#f8fafc"
+    base_bg_3: "#b3d2cd"
+    base_text: "#2a2a2a"
+    base_text_2: "#5a6b66"
+    primary_bg: "#4682B4"
+    primary_bg_2: "#2567a4"
+    primary_bg_3: "#7ab3d8"
+    primary_text: "#ffffff"
+    header_text: "#4682B4"
+    logo_text: "#4682B4"
+    hero_gradient: "#1e3530"
+    hero_gradient_2: "#0a1510"
+
+    # dark
+    base_bg_dark: "#0d1f35"
+    base_bg_2_dark: "#162035"
+    base_bg_3_dark: "#162035"
+    base_text_dark: "#f0f4f8"
+    base_text_2_dark: "#8fcce8"
+    primary_bg_dark: "#7ab3d8"
+    primary_bg_dark_2: "#4682B4"
+    primary_bg_dark_3: "#2567a4"
+    primary_text_dark: "#0d1f35"
+    logo_text_dark: "#f0f4f8"
+    header_text_dark: "#f0f4f8"
+    hero_gradient_dark: "#7ab3d8"
+    hero_gradient_2_dark: "#2567a4"
+
+    # Steel Blue Corporate Design – Light Mode
+    primary:            "#4682B4"   # Steel Blue – Hauptfarbe, Hero, Buttons, Links
+    primary_dark:       "#2567a4"   # Steel Blue dunkel – Hover
+    secondary:          "#7fa095"   # Sage Mid – Ergänzungsfarbe
+    accent:             "#cdedbe"   # Mint Light – Badges, Tags
+    background:         "#faf4f4"   # Off-White – Seitenhintergrund
+    surface:            "#ffffff"   # Karten & Panels
+    surface_alt:        "#b3d2cd"   # Sage Light – abwechselnde Sektionen
+    text_color:         "#2a2a2a"
+    text_muted:         "#5a6b66"
+    header_background:  "#ffffff"
+    footer_background:  "#162035"   # Navy Dark Footer
+    footer_text:        "#ffffff"
+
+  colors_dark:
+    primary:            "#7ab3d8"   # Steel Blue hell – besser lesbar im Dark Mode
+    secondary:          "#b3d2cd"   # Sage Light
+    accent:             "#cdedbe"   # Mint
+    background:         "#0d1f35"   # Sehr dunkles Navy-Blau
+    surface:            "#162035"
+    text_color:         "#f0f4f8"
+    text_muted:         "#8fcce8"
+    header_background:  "#0d1f35"
+    footer_background:  "#0d1f35"
+
+  fonts:
+    use_google_fonts: false
+    use_self_hosted_fonts: true
+    logo: "Arsenal"
+    heading: "Bebas Neue"
+    base: "Arsenal"
+    monospace: "'Source Code Pro'"
+
+  logo:
+    logo_text: "Nathe Consulting"
+    logo_image_desktop: images/logo/nathe-steel-tagline.svg
+    logo_image_mobile: images/logo/nathe-steel.svg
+    logo_image_desktop_invert: images/logo/nathe-steel-invertiert.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
+    logo_image_mobile_invert: images/logo/nathe-steel-invertiert.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
+    logo_image_desktop_height: "52px"
+    logo_image_desktop_width: "auto"
+    logo_image_mobile_height: "38px"
+    logo_image_mobile_width: "auto"
+    show_logo_image_on_mobile: true
+    show_logo_image_on_desktop: true
+    show_logo_text_on_mobile: false
+    show_logo_text_on_desktop: false
+    logo_text_font_size: "24px"
+    logo_text_font_weight: "500" # 300, 500, 700
+
+  header:
+    fixed: true
+    header_height: "60px"
+    header_menu_font_size: "18px"
+
+  open_graph:
+    og_type: "website"
+    og_twitter_card: "summary"
+    og_twitter_site: "@zerostaticio"
+    og_twitter_creator: "@zerostaticio"
+
+  dark_mode:
+    enable_dark_mode: true
+    show_dark_mode_toggle_in_header: false
+    show_dark_mode_toggle_in_bottom: true
+    show_dark_mode_toggle_in_mobile_menu: true
+
+  cookie_banner:
+    enabled: true
+    show_manage_cookies_at_bottom: true
+
+  analytics:
+    disable_analytics_on_localhost: false # prevents polluting analytics data while developing but enabling can be useful
+    google_analytics_id: "" # G-XXXXXXXXXX
+    gtm_id: "" # GTM-XXXXXXXX
+    plausible_data_domain: "" # mywebsite.com
+    plausible_script_url: "" # if you use a self-hosted plausible enter the url
+    umami_data_website_id: "" # ddd14336-5fb0-4cdd-8f32-e1bfa906cc2b
+    umami_src: "" # https://analytics.eu.umami.is/script.js
+  
+  comments:
+    commento:
+      enabled: false # you must have a commento account and be on the correct domain. does not work locally.
+    disqus:
+      shortname: "zerostatic" # Your disqus shortcode for example "zerostatic". leave this blank ie "" to disable.
+
+  newsletter:
+    mailchimp:
+      form_action_url: https://zerostatic.us21.list-manage.com/subscribe/post?u=798e19886b83aaab346734382&amp;id=f1c526a772&amp;f_id=0027e3e6f0
+      form_title: "Let's keep in touch"
+
+  contact_form:
+    use_netlify_form: false
+    use_formspree_form: true
+    formspree_endpoint: https://formspree.io/f/moqyklqv
+    netlify_form_name: "contact"
+
+  multilingual:
+    enable_language_switcher: true
+    show_language_switcher_in_header: true
+
+  menu:
+    show_dropdown_items_in_mobile_menu: false
+    show_social_media_in_mobile_menu: true
+
+  footer:
+    enable_footer: true
+    enable_footer_info: true # will show the section with the logo, title and description.
+    footer_title: "Nathe Consulting"
+    footer_logo: ""
+    footer_logo_height: "32px"
+    footer_logo_width: "32px"
+    footer_description: ""
+    enable_social_media_links: true
+    enable_languages: true
+    enable_copyright: false
+    enable_menu_footer_primary: true
+    enable_menu_footer_secondary: true
+    enable_menu_footer_tertiary: true
+    footer_primary_menu_title: "Product"
+    footer_secondary_menu_title: "Company"
+    footer_tertiary_menu_title: "Support"
+
+  bottom:
+    enabled: true
+    enable_bottom_menu: true
+    copyright_text: "© 2025 Nathe Consulting"
+    show_rss_icon: true
+
+languages:
+  de:
+    weight: 1
+    languageName: Deutsch
+    contentDir: content/de
+    menu:
+      main:
+        - name: "Leistungen"
+          url: /leistungen/
+          weight: 1
+        - name: "Kompetenzen"
+          url: /kompetenzen/
+          weight: 2
+        - name: "Karriere"
+          url: /karriere/
+          weight: 3
+        - name: "Über uns"
+          url: /ueber-uns/
+          weight: 4
+      footer_primary:
+        - name: "Leistungen"
+          url: /leistungen/
+          weight: 1
+        - name: "Kompetenzen"
+          url: /kompetenzen/
+          weight: 2
+        - name: "Karriere"
+          url: /karriere/
+          weight: 3
+        - name: "Über uns"
+          url: /ueber-uns/
+          weight: 4
+      footer_secondary:
+        - name: "Kontakt"
+          url: /contact/
+          weight: 1
+      footer_tertiary:
+        - name: "Impressum"
+          url: /terms/
+          weight: 1
+        - name: "Datenschutz"
+          url: /privacy/
+          weight: 2
+      bottom:
+        - name: "Impressum"
+          url: "/terms/"
+          weight: 1
+        - name: "Datenschutz"
+          url: /privacy/
+          weight: 2
+
+  en:
+    weight: 2
+    languageName: English
+    contentDir: content/en
+    menu:
+      main:
+        - name: "Services"
+          url: /services/
+          weight: 1
+        - name: "Competencies"
+          url: /competencies/
+          weight: 2
+        - name: "Careers"
+          url: /careers/
+          weight: 3
+        - name: "About"
+          url: /about/
+          weight: 4
+      footer_primary:
+        - name: "Services"
+          url: /services/
+          weight: 1
+        - name: "Competencies"
+          url: /competencies/
+          weight: 2
+        - name: "Careers"
+          url: /careers/
+          weight: 3
+        - name: "About"
+          url: /about/
+          weight: 4
+      footer_secondary:
+        - name: "Contact"
+          url: /contact/
+          weight: 1
+      footer_tertiary:
+        - name: "Imprint"
+          url: /imprint/
+          weight: 1
+        - name: "Privacy Policy"
+          url: /privacy/
+          weight: 2
+      bottom:
+        - name: "Imprint"
+          url: "/imprint/"
+          weight: 1
+        - name: "Privacy Policy"
+          url: /privacy/
+          weight: 2
+
+permalinks:
+  posts: "blog/:year/:month/:title/"
+  pages: ":slug/"
+
+taxonomies:
+  tag: tags
+  category: categories
+  portfolio: portfolio
+  author: authors
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
