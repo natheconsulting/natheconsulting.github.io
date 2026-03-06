@@ -45,8 +45,8 @@ params:
     primary_text: "#ffffff"
     header_text: "#4682B4"
     logo_text: "#4682B4"
-    hero_gradient: "#1e3530"
-    hero_gradient_2: "#0a1510"
+    hero_gradient: "#faf4f4"
+    hero_gradient_2: "#f2ece6"
 
     # dark
     base_bg_dark: "#0d1f35"

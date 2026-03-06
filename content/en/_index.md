@@ -18,9 +18,9 @@ hero:
     text_color_dark: "#FFFFFF"
   background:
     background_image: "images/photos/home/home-large.webp"
-    background_image_blend_mode: "overlay"
+    background_image_blend_mode: "multiply"
     background_gradient: true
-    opacity: 1
+    opacity: 0.5
   image:
     image: false
   buttons:

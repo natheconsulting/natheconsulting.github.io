@@ -9,12 +9,12 @@ url: "privacy"
 Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
 **Nathe Consulting**
-[Straße und Hausnummer]
-[PLZ Ort]
+Waldmüllerstr. 16a
+90455 Nürnberg
 Deutschland
 
-E-Mail: [kontakt@nathe-consulting.de]
-Telefon: [+49 ...]
+E-Mail: hello@nathe.consulting
+Telefon: +49 911 98060985
 
 ## 2. Allgemeines zur Datenverarbeitung
 
@@ -22,7 +22,7 @@ Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit
 
 ## 3. Hosting und Server-Logfiles
 
-Diese Website wird bei **GitHub Pages / Netlify** gehostet. Der Anbieter erhebt automatisch Informationen in sogenannten Server-Logfiles, die Ihr Browser automatisch übermittelt:
+Diese Website wird bei **GitHub Pages** gehostet. Der Anbieter erhebt automatisch Informationen in sogenannten Server-Logfiles, die Ihr Browser automatisch übermittelt:
 
 - Browsertyp und Browserversion
 - verwendetes Betriebssystem

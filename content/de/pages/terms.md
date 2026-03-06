@@ -7,29 +7,26 @@ url: "terms"
 ## Angaben gemäß § 5 TMG
 
 **Nathe Consulting**
-[Straße und Hausnummer]
-[PLZ Ort]
+Waldmüllerstraße 16a
+90455 Nürnberg
 Deutschland
 
 ## Kontakt
 
-Telefon: [+49 ...]
-E-Mail: [kontakt@nathe-consulting.de]
+Telefon: +49 911 98060985
+E-Mail: hello@nathe.consulting
 
 ## Umsatzsteuer-ID
 
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
-DE [XXXXXXXXX]
+DE368865948
 
-## Handelsregister
-
-[Registergericht, Registernummer – sofern zutreffend]
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-[Vor- und Nachname]
-[Straße und Hausnummer]
-[PLZ Ort]
+Elmar Nathe
+Waldmüllerstraße 16a
+90455 Nürnberg
 
 ## Haftung für Inhalte
 

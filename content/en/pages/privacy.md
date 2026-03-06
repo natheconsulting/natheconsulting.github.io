@@ -9,12 +9,12 @@ url: "privacy"
 The controller within the meaning of the General Data Protection Regulation (GDPR) is:
 
 **Nathe Consulting**
-[Street and Number]
-[Postal Code, City]
+Waldmüllerstr. 16a
+90455 Nürnberg
 Germany
 
-Email: [contact@nathe-consulting.de]
-Phone: [+49 ...]
+Email: hello@nathe.consulting
+Phone: +49 911 98060985
 
 ## General Information on Data Processing
 
@@ -22,7 +22,7 @@ We only process personal data of our users to the extent necessary to provide a 
 
 ## Hosting and Server Log Files
 
-This website is hosted by **GitHub Pages / Netlify**. The provider automatically collects information in so-called server log files, which your browser automatically transmits: browser type and version, operating system, referrer URL, hostname of the accessing computer, time of the server request, and IP address.
+This website is hosted by **GitHub Pages**. The provider automatically collects information in so-called server log files, which your browser automatically transmits: browser type and version, operating system, referrer URL, hostname of the accessing computer, time of the server request, and IP address.
 
 This data is not merged with other data sources. The legal basis is Art. 6 para. 1 lit. f GDPR (legitimate interest in the technically error-free presentation of the website).
 
