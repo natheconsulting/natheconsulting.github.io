@@ -10,6 +10,10 @@
         </div>
     {{ end }}
 
+    {{ if .Content }}
+        {{ .Content }}
+    {{ end }}
+
     <!-- Show a list of 'services' -->
     {{ if .Params.services.enabled }}
         {{ $section := $.Site.GetPage "section" "services" }}
