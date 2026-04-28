@@ -2,3 +2,11 @@
     other = "View All"
 [all_rights_reserved]
     other = "All Rights Reserved"
+[contact_address]
+    other = "Address"
+[contact_phone]
+    other = "Phone"
+[contact_email]
+    other = "Email"
+[contact_locations_heading]
+    other = "Locations"

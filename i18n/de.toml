@@ -2,3 +2,11 @@
     other = "Alle anzeigen"
 [all_rights_reserved]
     other = "Alle Rechte vorbehalten"
+[contact_address]
+    other = "Adresse"
+[contact_phone]
+    other = "Telefon"
+[contact_email]
+    other = "E-Mail"
+[contact_locations_heading]
+    other = "Standorte"

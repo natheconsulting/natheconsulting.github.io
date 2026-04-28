@@ -2,7 +2,7 @@
 title: "Karriere"
 url: "karriere"
 date: 2026-04-24
-draft: false
+draft: true
 description: "Nathe Consulting sucht erfahrene Berater für KI-Projekte: Product Owner, Business/Data Analyst, Agiler KI-Entwickler."
 tags: ["Karriere", "KI", "Beratung", "Jobs"]
 categories: []

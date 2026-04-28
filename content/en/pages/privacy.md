@@ -14,7 +14,7 @@ Waldmüllerstr. 16a
 Germany
 
 Email: hello@nathe.consulting
-Phone: +49 911 98060985
+Phone: +49 151 21 71 85 26
 
 ## General Information on Data Processing
 
@@ -60,4 +60,4 @@ You have the right to lodge a complaint with a data protection supervisory autho
 
 ## Currency of this Privacy Policy
 
-This privacy policy is updated when our data processing practices change. Last updated: March 2025.
+This privacy policy is updated when our data processing practices change. Last updated: April 2026.

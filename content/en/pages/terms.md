@@ -7,13 +7,13 @@ url: "imprint"
 ## Legal Notice according to § 5 TMG (German Telemedia Act)
 
 **Nathe Consulting**
-Waldmüllerstra. 16a
+Waldmüllerstraße 16a
 90455 Nürnberg
 Germany
 
 ## Contact
 
-Phone: +49 911 98060985
+Phone: +49 151 21 71 85 26
 Email: hello@nathe.consulting
 
 ## VAT Identification Number

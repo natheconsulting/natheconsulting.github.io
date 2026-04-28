@@ -14,7 +14,7 @@ Waldmüllerstr. 16a
 Deutschland
 
 E-Mail: hello@nathe.consulting
-Telefon: +49 911 98060985
+Telefon: +49 151 21 71 85 26
 
 ## 2. Allgemeines zur Datenverarbeitung
 
@@ -67,4 +67,4 @@ Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Vera
 
 ## 8. Aktualität dieser Datenschutzerklärung
 
-Diese Datenschutzerklärung wird bei Änderungen unserer Datenverarbeitungspraktiken aktualisiert. Stand: März 2025.
+Diese Datenschutzerklärung wird bei Änderungen unserer Datenverarbeitungspraktiken aktualisiert. Stand: April 2026.

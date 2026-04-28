@@ -58,22 +58,9 @@ Complex delivery structures need someone who can hold all levels in view simulta
 
 ---
 
-## Selected reference projects
+## Reference projects
 
-**BAKIRA – AI platform for 70,000 employees**
-*Large federal authority | 2025–2026 | Risk Manager*
-
-BAKIRA is the central GenAI platform of the organisation: knowledge management chatbot, text assistant, and controlling chatbot in a single system, rolled out to over 70,000 employees. I led the risk management independently and reported directly to the steering committee – outside the project line, including when the results were uncomfortable.
-
-**ADEST – Machine learning for job posting recognition**
-*Large federal authority | 2023–2024 | Risk Manager*
-
-An ML solution that automatically recognises and structures unstructured job postings from emails, PDFs, and free text. I monitored the quality metrics of the ML models (F1 score) in direct alignment with project progress. The product was delivered on time – through close quality assurance and consistent change management.
-
-**IT Transformation – Mainframe replacement**
-*Federal authority | 2003–2011 | Project Manager & Solution Architect*
-
-Co-lead of an eight-year transformation programme to replace a critical application domain in a security-sensitive environment. Multiple leadership changes on the client side, cross-departmental conflicts, high organisational complexity. The solution was delivered on time.
+Selected project references – from AI platforms serving tens of thousands of employees to machine learning initiatives and an eight-year IT transformation – are available on the [references page](/referenzen/).
 
 ---
 

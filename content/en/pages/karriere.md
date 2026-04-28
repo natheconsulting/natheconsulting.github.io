@@ -2,7 +2,7 @@
 title: "Careers"
 url: "karriere"
 date: 2026-04-24
-draft: false
+draft: true
 description: "Nathe Consulting is looking for experienced consultants for AI projects: Product Owner, Business/Data Analyst, Agile AI Developer."
 tags: ["Careers", "AI", "Consulting", "Jobs"]
 categories: []

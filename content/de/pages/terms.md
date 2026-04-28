@@ -13,7 +13,7 @@ Deutschland
 
 ## Kontakt
 
-Telefon: +49 911 98060985
+Telefon: +49 151 21 71 85 26
 E-Mail: hello@nathe.consulting
 
 ## Umsatzsteuer-ID
@@ -22,7 +22,7 @@ Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
 DE368865948
 
 
-## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
 Elmar Nathe
 Waldmüllerstraße 16a

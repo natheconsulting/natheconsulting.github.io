@@ -1,7 +1,7 @@
 ---
 title: "Nathe Consulting"
 date: 2019-02-22
-description: "Nathe Consulting – Your partner for strategic consulting."
+description: "Nathe Consulting – Mission-Critical AI. Business value first."
 header_transparent: true
 hero:
   type: hero
@@ -12,8 +12,8 @@ hero:
   fullscreen_mobile: true
   fullscreen_desktop: false
   headings:
-    heading: Nathe Consulting
-    sub_heading: Your partner for strategic consulting.
+    heading: Mission-Critical AI
+    sub_heading: Business value first.
     text_color: "#FFFFFF"
     text_color_dark: "#FFFFFF"
   background:

@@ -2,8 +2,5 @@
 title: "Playbook AI"
 url: "ai-playbook"
 description: "Your structured guide for deploying AI in the enterprise."
+draft: true
 ---
-
-# Playbook AI
-
-A structured guide for the successful deployment of Artificial Intelligence in your organization.

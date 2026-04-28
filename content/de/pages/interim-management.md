@@ -58,22 +58,9 @@ Komplexe Lieferstrukturen brauchen jemanden, der alle Ebenen gleichzeitig im Bli
 
 ---
 
-## Ausgewählte Referenzprojekte
+## Referenzprojekte
 
-**BAKIRA – KI-Plattform für 70.000 Mitarbeitende**
-*Große Bundesbehörde | 2025–2026 | Risikomanager*
-
-BAKIRA ist die zentrale GenAI-Plattform der Behörde: Wissensmanagement-Chatbot, Textassistent und Controlling-Chatbot in einem System, ausgerollt für über 70.000 Mitarbeitende. Ich verantwortete das Risikomanagement eigenständig und berichtete direkt an das Steering Committee – unabhängig von der Projektlinie, auch wenn die Ergebnisse unbequem waren.
-
-**ADEST – Machine Learning für Stellenangebotserkennung**
-*Große Bundesbehörde | 2023–2024 | Risikomanager*
-
-Eine ML-Lösung, die unstrukturierte Stellenangebote automatisch erkennt und strukturiert überträgt. Besonderheit: Ich überwachte die Qualitätsmetriken der ML-Modelle (F1-Score) im direkten Abgleich mit dem Projektfortschritt. Das Produkt wurde termingerecht geliefert – durch engmaschige Qualitätssicherung und konsequentes Change Management.
-
-**IT-Transformation – Mainframe-Ablösung**
-*Bundesbehörde | 2003–2011 | Projektleiter & Facharchitekt*
-
-Co-Leitung eines achtjährigen Transformationsprogramms zur Ablösung einer kritischen Anwendungsdomäne im sicherheitsrelevanten Umfeld. Mehrere Führungswechsel auf Kundenseite, abteilungsübergreifende Konflikte, hohe organisatorische Komplexität. Die Lösung wurde termingerecht eingeführt.
+Ausgewählte Projektreferenzen – von KI-Plattformen für zehntausende Mitarbeitende über Machine-Learning-Vorhaben bis zur achtjährigen IT-Transformation – finden Sie auf der [Referenzenseite](/referenzen/).
 
 ---
 

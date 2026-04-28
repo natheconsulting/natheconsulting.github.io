@@ -177,14 +177,14 @@ params:
     footer_logo_width: "32px"
     footer_description: ""
     enable_social_media_links: true
-    enable_languages: true
+    enable_languages: false
     enable_copyright: false
     enable_menu_footer_primary: true
     enable_menu_footer_secondary: true
     enable_menu_footer_tertiary: true
-    footer_primary_menu_title: "Product"
-    footer_secondary_menu_title: "Company"
-    footer_tertiary_menu_title: "Support"
+    footer_primary_menu_title: "Leistungen"
+    footer_secondary_menu_title: "Unternehmen"
+    footer_tertiary_menu_title: "Insights"
 
   bottom:
     enabled: true
@@ -205,15 +205,18 @@ languages:
         - name: "Interim-Management"
           url: /interim-management/
           weight: 2
+        - name: "Referenzen"
+          url: /referenzen/
+          weight: 3
         - name: "Karriere"
           url: /karriere/
-          weight: 3
-        - name: "Playbook AI"
-          url: /ai-playbook/
           weight: 4
+        - name: "Insights"
+          url: /insights/
+          weight: 5
         - name: "Über uns"
           url: /ueber-uns/
-          weight: 5
+          weight: 6
       footer_primary:
         - name: "Consulting"
           url: /consulting/
@@ -221,25 +224,22 @@ languages:
         - name: "Interim-Management"
           url: /interim-management/
           weight: 2
+      footer_secondary:
         - name: "Karriere"
           url: /karriere/
-          weight: 3
-        - name: "Playbook AI"
-          url: /ai-playbook/
-          weight: 4
+          weight: 1
         - name: "Über uns"
           url: /ueber-uns/
-          weight: 5
-      footer_secondary:
+          weight: 2
         - name: "Kontakt"
           url: /contact/
-          weight: 1
+          weight: 3
       footer_tertiary:
-        - name: "Impressum"
-          url: /terms/
+        - name: "KI-Projekte scheitern nicht an der Technologie"
+          url: /insights/2025-03-15-ki-projekte-scheitern-nicht-an-technologie/
           weight: 1
-        - name: "Datenschutz"
-          url: /privacy/
+        - name: "Risikomanagement in KI-Projekten"
+          url: /insights/2025-04-10-risikomanagement-ki-projekte/
           weight: 2
       bottom:
         - name: "Impressum"
@@ -261,15 +261,18 @@ languages:
         - name: "Interim Management"
           url: /interim-management/
           weight: 2
-        - name: "Careers"
-          url: /careers/
+        - name: "References"
+          url: /referenzen/
           weight: 3
-        - name: "Playbook AI"
-          url: /ai-playbook/
+        - name: "Careers"
+          url: /karriere/
           weight: 4
+        - name: "Insights"
+          url: /insights/
+          weight: 5
         - name: "About"
           url: /about/
-          weight: 5
+          weight: 6
       footer_primary:
         - name: "Consulting"
           url: /consulting/
@@ -277,25 +280,22 @@ languages:
         - name: "Interim Management"
           url: /interim-management/
           weight: 2
+      footer_secondary:
         - name: "Careers"
-          url: /careers/
-          weight: 3
-        - name: "Playbook AI"
-          url: /ai-playbook/
-          weight: 4
+          url: /karriere/
+          weight: 1
         - name: "About"
           url: /about/
-          weight: 5
-      footer_secondary:
+          weight: 2
         - name: "Contact"
           url: /contact/
-          weight: 1
+          weight: 3
       footer_tertiary:
-        - name: "Imprint"
-          url: /imprint/
+        - name: "AI Projects Don't Fail Because of Technology"
+          url: /en/insights/2025-03-15-ai-projects-dont-fail-because-of-technology/
           weight: 1
-        - name: "Privacy Policy"
-          url: /privacy/
+        - name: "Risk Management in AI Projects"
+          url: /en/insights/2025-04-10-risk-management-in-ai-projects/
           weight: 2
       bottom:
         - name: "Imprint"
