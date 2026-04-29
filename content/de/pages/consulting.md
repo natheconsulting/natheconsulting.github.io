@@ -54,4 +54,6 @@ Sie behalten die Kontrolle. Wir liefern die Fakten.
 
 ---
 
-Wenn Sie wissen möchten, ob Ihr Projekt auf Kurs ist – oder ob Ihre nächste Idee trägt – [schreiben Sie uns](mailto:elmar@nathe.consulting).
+Wenn Sie wissen möchten, ob Ihr Projekt auf Kurs ist – oder ob Ihre nächste Idee trägt:
+
+[Termin vereinbaren](https://calendar.proton.me/bookings#m351a5R8CuI-eNE111qIE6JrT0piHCCGNG8tQoKXgAA=) &nbsp;·&nbsp; [E-Mail schreiben](mailto:elmar@nathe.consulting)

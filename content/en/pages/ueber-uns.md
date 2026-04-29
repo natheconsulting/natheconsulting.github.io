@@ -42,4 +42,4 @@ This is not a workaround. It is a model that ensures quality: each partner bring
 
 Have an initiative you're not sure is set up to deliver?
 
-[Get in touch](mailto:elmar@nathe.consulting)
+[Schedule a meeting](https://calendar.proton.me/bookings#NhzuL810Z_yspmnbZriJXYczBxNaCKJQtfPz8y_64oE=) &nbsp;·&nbsp; [Send an email](mailto:elmar@nathe.consulting)

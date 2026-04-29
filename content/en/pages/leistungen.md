@@ -51,4 +51,4 @@ A **Pilot** delivers exactly that: not a presentation, but working software – 
 
 Not sure which service fits your situation? Describe briefly where you stand – the rest follows in conversation.
 
-[Get in touch →](/contact/)
+[Schedule a meeting](https://calendar.proton.me/bookings#NhzuL810Z_yspmnbZriJXYczBxNaCKJQtfPz8y_64oE=) &nbsp;·&nbsp; [Send an email](mailto:elmar@nathe.consulting)

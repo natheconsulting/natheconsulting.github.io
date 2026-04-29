@@ -27,7 +27,7 @@ locations:
 
 ## Book a meeting
 
-[Schedule a call](#BOOKING-LINK-EINFÜGEN)
+[Schedule a meeting](https://calendar.proton.me/bookings#NhzuL810Z_yspmnbZriJXYczBxNaCKJQtfPz8y_64oE=)
 
 ---
 

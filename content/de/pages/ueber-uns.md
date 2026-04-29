@@ -42,4 +42,4 @@ Das ist keine Notlösung. Es ist ein Modell, das Qualität sichert: Jeder Partne
 
 Sie haben ein Vorhaben, bei dem Sie sich nicht sicher sind, ob es so aufgestellt ist, dass es liefern kann?
 
-[Sprechen Sie uns an](mailto:elmar@nathe.consulting)
+[Termin vereinbaren](https://calendar.proton.me/bookings#m351a5R8CuI-eNE111qIE6JrT0piHCCGNG8tQoKXgAA=) &nbsp;·&nbsp; [E-Mail schreiben](mailto:elmar@nathe.consulting)

@@ -94,4 +94,4 @@ Development and implementation of a custom ERP system for an internationally act
 
 Want to know whether experience from comparable initiatives applies to your situation?
 
-[Let's talk](mailto:elmar@nathe.consulting)
+[Schedule a meeting](https://calendar.proton.me/bookings#NhzuL810Z_yspmnbZriJXYczBxNaCKJQtfPz8y_64oE=) &nbsp;·&nbsp; [Send an email](mailto:elmar@nathe.consulting)

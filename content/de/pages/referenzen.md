@@ -94,4 +94,4 @@ Entwicklung und Einführung eines kundenspezifischen ERP-Systems für einen inte
 
 Sie möchten wissen, ob Erfahrungen aus vergleichbaren Vorhaben auf Ihr Projekt übertragbar sind?
 
-[Gespräch vereinbaren](mailto:elmar@nathe.consulting)
+[Termin vereinbaren](https://calendar.proton.me/bookings#m351a5R8CuI-eNE111qIE6JrT0piHCCGNG8tQoKXgAA=) &nbsp;·&nbsp; [E-Mail schreiben](mailto:elmar@nathe.consulting)

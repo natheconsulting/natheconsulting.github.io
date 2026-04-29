@@ -51,4 +51,4 @@ Ein **Pilot** liefert genau das: keine Präsentation, sondern lauffähige Softwa
 
 Sie sind sich nicht sicher, welche Leistung zu Ihrer Situation passt? Beschreiben Sie kurz, wo Sie stehen – der Rest ergibt sich im Gespräch.
 
-[Kontakt aufnehmen →](/contact/)
+[Termin vereinbaren](https://calendar.proton.me/bookings#m351a5R8CuI-eNE111qIE6JrT0piHCCGNG8tQoKXgAA=) &nbsp;·&nbsp; [E-Mail schreiben](mailto:elmar@nathe.consulting)

@@ -72,4 +72,6 @@ Asking that question – and answering it honestly – is my work.
 
 ---
 
-If your initiative has no room for polite status reports – [get in touch](mailto:elmar@nathe.consulting).
+If your initiative has no room for polite status reports:
+
+[Schedule a meeting](https://calendar.proton.me/bookings#NhzuL810Z_yspmnbZriJXYczBxNaCKJQtfPz8y_64oE=) &nbsp;·&nbsp; [Send an email](mailto:elmar@nathe.consulting)

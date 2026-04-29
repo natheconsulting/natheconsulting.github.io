@@ -54,4 +54,6 @@ You stay in control. We deliver the facts.
 
 ---
 
-If you want to know whether your project is on track – or whether your next idea holds up – [get in touch](mailto:elmar@nathe.consulting).
+If you want to know whether your project is on track – or whether your next idea holds up:
+
+[Schedule a meeting](https://calendar.proton.me/bookings#NhzuL810Z_yspmnbZriJXYczBxNaCKJQtfPz8y_64oE=) &nbsp;·&nbsp; [Send an email](mailto:elmar@nathe.consulting)

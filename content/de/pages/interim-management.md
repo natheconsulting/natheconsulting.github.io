@@ -72,4 +72,6 @@ Diese Frage zu stellen – und sie ehrlich zu beantworten – ist meine Arbeit.
 
 ---
 
-Wenn Ihr Vorhaben keinen Spielraum für höfliche Statusberichte hat – [schreiben Sie mir](mailto:elmar@nathe.consulting).
+Wenn Ihr Vorhaben keinen Spielraum für höfliche Statusberichte hat:
+
+[Termin vereinbaren](https://calendar.proton.me/bookings#m351a5R8CuI-eNE111qIE6JrT0piHCCGNG8tQoKXgAA=) &nbsp;·&nbsp; [E-Mail schreiben](mailto:elmar@nathe.consulting)

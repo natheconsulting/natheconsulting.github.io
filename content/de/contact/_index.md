@@ -27,7 +27,7 @@ locations:
 
 ## Termin vereinbaren
 
-[Termin buchen](#BOOKING-LINK-EINFÜGEN)
+[Termin vereinbaren](https://calendar.proton.me/bookings#m351a5R8CuI-eNE111qIE6JrT0piHCCGNG8tQoKXgAA=)
 
 ---
 
