@@ -1,39 +1,41 @@
 ---
 title: "Nathe Consulting"
 date: 2019-02-22
-description: "Nathe Consulting – Mission-critical AI."
-header_transparent: true
+draft: false
+description: "Nathe Consulting – Mission-critical AI. Business value first."
+header_transparent: false
 hero:
-  type: hero
   enabled: true
   align_horizontal: left
   align_vertical: middle
-  height: 85vh
-  fullscreen_mobile: true
+  height: "500px"
+  fullscreen_mobile: false
   fullscreen_desktop: false
   headings:
-    heading: Mission-Critical AI
-    sub_heading: Business value first.
-    text_color: "#FFFFFF"
-    text_color_dark: "#FFFFFF"
+    heading: "KI-Projekte, die wirklich liefern."
+    sub_heading: "Consulting · Interim-Management · KI"
+    text: "Technologieprojekte scheitern nicht an der Technologie – sie scheitern daran, dass der geschäftliche Nutzen aus dem Blick gerät. Ich sorge dafür, dass er es nicht tut."
+    text_color: "#ffffff"
+    text_color_dark: "#ffffff"
   background:
-    background_image: "images/photos/home/home-large.webp"
-    background_image_blend_mode: "multiply"
-    background_gradient: true
-    opacity: 0.5
+    background_image: false
+    background_image_blend_mode: false
+    background_color: "#7fa095"
+    background_gradient: false
+    opacity: 1
   image:
     image: false
   buttons:
     - button:
-      text: "Leistungen"
-      url: "leistungen/"
+      text: "Beratungsgespräch anfragen"
+      url: "contact/"
       external: false
       fa_icon: false
-      outline: true
-      style: "transparent"
+      outline: false
+      style: "primary"
     - button:
-      text: "Kontakt"
-      url: "contact/"
+      text: "Referenzen ansehen"
+      url: "referenzen/"
       external: false
       fa_icon: false
       outline: true

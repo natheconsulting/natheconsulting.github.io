@@ -10,6 +10,9 @@
 // 2. Hugo Advance Framework (Bootstrap + alle Theme-Komponenten)
 @import "framework/index"; // beinhaltet theme/variables, Bootstrap und alle Zerostatic-Stile
 
+// 3. Custom Overrides – ZULETZT, überschreibt alles andere
+@import "theme/custom";    // _custom.scss: Corporate Design Anpassungen
+
 
 // ================================================
 // PRIMÄRFARBE – AMBER ANWENDUNGEN
@@ -170,11 +173,18 @@ a {
 // ================================================
 
 .footer {
-  background-color: #162035;
-  color:            #f0f4f8;
+  background-color: #e38f18;
+  color:            #ffffff;
+
+  h2, h3, h4 { color: #ffffff; }
 
   a {
-    color: rgba(240,244,248,0.75);
+    color: rgba(255,255,255,0.85);
+    &:hover { color: #ffffff; }
+  }
+
+  .footer-menu ul.footer-menu li a {
+    color: rgba(255,255,255,0.85);
     &:hover { color: #ffffff; }
   }
 

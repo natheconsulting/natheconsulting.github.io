@@ -72,7 +72,7 @@ params:
     text_color:         "#2a2a2a"
     text_muted:         "#5a6b66"
     header_background:  "#ffffff"
-    footer_background:  "#162035"   # Navy Dark Footer
+    footer_background:  "#7fa095"   # Sage Mid Footer
     footer_text:        "#ffffff"
 
   colors_dark:
@@ -96,13 +96,13 @@ params:
 
   logo:
     logo_text: "Nathe Consulting"
-    logo_image_desktop: images/logo/nathe-steel-tagline.svg
-    logo_image_mobile: images/logo/nathe-steel.svg
-    logo_image_desktop_invert: images/logo/nathe-steel-invertiert.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
-    logo_image_mobile_invert: images/logo/nathe-steel-invertiert.svg # used on transparent header and when in dark mode. Normally a white version of the logo.
-    logo_image_desktop_height: "52px"
+    logo_image_desktop: images/logo/nathe-amber.svg
+    logo_image_mobile: images/logo/nathe-amber.svg
+    logo_image_desktop_invert: images/logo/nathe-amber-invertiert.svg
+    logo_image_mobile_invert: images/logo/nathe-amber-invertiert.svg
+    logo_image_desktop_height: "44px"
     logo_image_desktop_width: "auto"
-    logo_image_mobile_height: "38px"
+    logo_image_mobile_height: "34px"
     logo_image_mobile_width: "auto"
     show_logo_image_on_mobile: true
     show_logo_image_on_desktop: true
