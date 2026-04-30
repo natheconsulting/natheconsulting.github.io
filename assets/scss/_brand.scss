@@ -56,7 +56,7 @@ $color-dark-footer-bg:    #1f1a10;
 // ----------------------------------------------------
 
 $font-heading-display:  'Bebas Neue', sans-serif;   // H1, H2
-$font-heading-sub:      'Roboto', sans-serif;        // H3–H6
+$font-heading-sub:      'Arsenal', sans-serif;        // H3–H6
 $font-body:             'Arsenal', sans-serif;        // Fließtext, UI
 
 $font-size-base:   1rem;
@@ -131,9 +131,9 @@ h3, h4, h5, h6 {
   line-height:  $line-height-sub;
 }
 
-// Bebas Neue hat keinen Kursivschnitt → Fallback
+// Bebas Neue hat keinen Kursivschnitt → Fallback Arsenal Italic
 h1 em, h2 em {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arsenal', sans-serif;
   font-style:  italic;
   font-weight: $font-weight-normal;
 }

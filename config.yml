@@ -24,8 +24,6 @@ params:
   google_fonts:
     - name: "Bebas Neue"
       weights: "400"
-    - name: "Roboto"
-      weights: "400,500,700"
     - name: "Arsenal"
       weights: "400,400i,700"
 
@@ -39,12 +37,12 @@ params:
     base_bg_3: "#b3d2cd"
     base_text: "#2a2a2a"
     base_text_2: "#5a6b66"
-    primary_bg: "#4682B4"
-    primary_bg_2: "#2567a4"
-    primary_bg_3: "#7ab3d8"
+    primary_bg: "#7fa095"
+    primary_bg_2: "#5a8070"
+    primary_bg_3: "#b3d2cd"
     primary_text: "#ffffff"
-    header_text: "#4682B4"
-    logo_text: "#4682B4"
+    header_text: "#7fa095"
+    logo_text: "#7fa095"
     hero_gradient: "#faf4f4"
     hero_gradient_2: "#f2ece6"
 
@@ -64,8 +62,8 @@ params:
     hero_gradient_2_dark: "#2567a4"
 
     # Steel Blue Corporate Design – Light Mode
-    primary:            "#4682B4"   # Steel Blue – Hauptfarbe, Hero, Buttons, Links
-    primary_dark:       "#2567a4"   # Steel Blue dunkel – Hover
+    primary:            "#7fa095"   # Sage Mid – Hauptfarbe, Hero, Buttons, Links
+    primary_dark:       "#5a8070"   # Sage Mid dunkel – Hover
     secondary:          "#7fa095"   # Sage Mid – Ergänzungsfarbe
     accent:             "#cdedbe"   # Mint Light – Badges, Tags
     background:         "#faf4f4"   # Off-White – Seitenhintergrund
