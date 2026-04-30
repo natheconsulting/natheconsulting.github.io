@@ -27,15 +27,15 @@ hero:
     image: false
   buttons:
     - button:
-      text: "Beratungsgespräch anfragen"
-      url: "contact/"
+      text: "Leistungen"
+      url: "leistungen/"
       external: false
       fa_icon: false
       outline: false
       style: "primary"
     - button:
-      text: "Referenzen ansehen"
-      url: "referenzen/"
+      text: "Kontakt"
+      url: "contact/"
       external: false
       fa_icon: false
       outline: true

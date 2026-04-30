@@ -7,14 +7,8 @@
     {{ if .Params.hero }}
         {{ partial "framework/sections/hero/hero.html" (dict "context" $ "hero" .Params.hero) }}
     {{ else }}
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        {{ partial "framework/sections/heading/heading.html" (dict "title" .Title "description" .Description )}}
-                    </div>
-                </div>
-            </div>
+        <div class="section section-base-bg">
+            {{ partial "framework/sections/title/title.html" (dict "context" $ "title" .Params.title "description" .Params.description) }}
         </div>
     {{ end }}
 

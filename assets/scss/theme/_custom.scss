@@ -260,18 +260,18 @@
   }
 }
 
-// 4. Footer – Amber
+// 4. Footer – Mint
 .footer {
-  background-color: #e38f18 !important;
-  color: #ffffff !important;
+  background-color: #cdedbe !important;
+  color: #2a2a2a !important;
 
   h2, h3, h4, p, a {
-    color: #ffffff !important;
+    color: #2a2a2a !important;
   }
 
   .footer-menu ul.footer-menu li a {
-    color: rgba(255, 255, 255, 0.85) !important;
-    &:hover { color: #ffffff !important; }
+    color: rgba(42, 42, 42, 0.75) !important;
+    &:hover { color: #2a2a2a !important; }
   }
 }
 

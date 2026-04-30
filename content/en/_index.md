@@ -27,15 +27,15 @@ hero:
     image: false
   buttons:
     - button:
-      text: "Request a Consultation"
-      url: "contact/"
+      text: "Services"
+      url: "leistungen/"
       external: false
       fa_icon: false
       outline: false
       style: "primary"
     - button:
-      text: "View References"
-      url: "referenzen/"
+      text: "Contact"
+      url: "contact/"
       external: false
       fa_icon: false
       outline: true
