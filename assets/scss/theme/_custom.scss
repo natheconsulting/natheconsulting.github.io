@@ -304,7 +304,18 @@ input[type="submit"] {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-// 8. Section-Labels
+// 9. Navigation – Amber Menüschrift
+.menu-main ul li > a {
+  color: #e38f18 !important;
+  &:hover {
+    color: #c97a10 !important;
+    text-decoration: none !important;
+  }
+}
+
+.menu-main ul li.active > a {
+  color: #c97a10 !important;
+}
 .section-label {
   font-family: 'Arsenal', sans-serif;
   font-size: 0.7rem;
