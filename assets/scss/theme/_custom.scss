@@ -316,6 +316,40 @@ input[type="submit"] {
 .menu-main ul li.active > a {
   color: #c97a10 !important;
 }
+
+// 10. Kontaktseite – saubere Farben
+.page-contact,
+.layout-contact,
+body.kind-page .contact {
+  // Formularfelder
+  input:not([type="submit"]),
+  textarea,
+  select {
+    color: #2a2a2a !important;
+    background-color: #ffffff !important;
+    border-color: #b3d2cd !important;
+    &:focus {
+      border-color: #7fa095 !important;
+      box-shadow: 0 0 0 2px rgba(127,160,149,0.2) !important;
+    }
+    &::placeholder { color: #999 !important; }
+  }
+  label { color: #2a2a2a !important; font-weight: 600; }
+  a { color: #7fa095 !important; &:hover { color: #5a8070 !important; } }
+  p, li, strong { color: #2a2a2a !important; }
+  h3, h4 { color: #2a2a2a !important; }
+}
+
+// Formular global – verhindert unsichtbare Felder durch Amber-Überlagerung
+form {
+  input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  select {
+    color: #2a2a2a !important;
+    background-color: #ffffff !important;
+    &::placeholder { color: #aaa !important; }
+  }
+}
 .section-label {
   font-family: 'Arsenal', sans-serif;
   font-size: 0.7rem;
