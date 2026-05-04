@@ -3,7 +3,7 @@ title: "Consulting"
 url: "consulting"
 date: 2026-04-24
 draft: false
-description: "Project review and pilot delivery: defined scope, rigorous approach, concrete output – so you make the right decisions at the right time."
+description: "Project Forecast and Project Setup: defined scope, rigorous approach, concrete output – so you make the right decisions at the right time."
 tags: ["Consulting", "Project Management", "AI", "Process Automation"]
 categories: []
 author: "Elmar Nathe"
@@ -24,7 +24,7 @@ Two services. Defined timeframe. Concrete output. No ongoing mandate.
 
 ---
 
-### Project Review
+### Project Forecast
 
 A project that isn't delivering as planned – or one where you don't want to make a critical decision based on gut feeling.
 
@@ -34,7 +34,7 @@ The result: a final report with a clear catalogue of measures. No opinions witho
 
 ---
 
-### Pilot Delivery
+### Project Setup
 
 You have an idea – an automation, an AI application, a new process solution. Before you commission a full project, you want to know: does this actually work? What does it actually cost? What are the real risks?
 

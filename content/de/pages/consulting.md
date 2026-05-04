@@ -3,7 +3,7 @@ title: "Consulting"
 url: "consulting"
 date: 2026-04-24
 draft: false
-description: "Projekt-Review und Pilot-Erstellung: klare Laufzeit, stringentes Vorgehen, konkreter Output – damit Sie die richtigen Entscheidungen treffen."
+description: "Projektprognose und Projektsetup: klare Laufzeit, stringentes Vorgehen, konkreter Output – damit Sie die richtigen Entscheidungen treffen."
 tags: ["Consulting", "Projektmanagement", "KI", "Prozessautomatisierung"]
 categories: []
 author: "Elmar Nathe"
@@ -24,7 +24,7 @@ Zwei Leistungen. Klare Laufzeit. Konkreter Output. Kein laufendes Mandat.
 
 ---
 
-### Projekt-Review
+### Projektprognose
 
 Ein laufendes Projekt, das nicht so liefert wie geplant – oder das Sie vor einer wichtigen Weichenstellung nicht auf Bauchgefühl stützen wollen.
 
@@ -34,7 +34,7 @@ Das Ergebnis: ein Abschlussbericht mit einem klaren Maßnahmenkatalog. Keine Mei
 
 ---
 
-### Pilot-Erstellung
+### Projektsetup
 
 Sie haben eine Idee – eine Automatisierung, eine KI-Anwendung, eine neue Prozesslösung. Bevor Sie ein Vollprojekt beauftragen, wollen Sie wissen: Funktioniert das wirklich? Was kostet es wirklich? Was sind die Risiken?
 

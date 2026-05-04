@@ -3,7 +3,7 @@ title: "Services"
 url: "services"
 date: 2026-04-28
 draft: false
-description: "Three situations. Three answers. Interim Management, Project Review and Pilot – each for the moment when internal knowledge and capacity are no longer enough."
+description: "Three situations. Three answers. Interim Management, Project Forecast and Project Setup – each for the moment when internal knowledge and capacity are no longer enough."
 tags: ["Services", "Interim Management", "Consulting", "AI"]
 categories: []
 author: "Elmar Nathe"
@@ -33,9 +33,9 @@ The status report shows green. The mood in the team shows something else. Milest
 
 Doubts like these don't arise without reason. And they don't go away if you wait.
 
-A **Project Review** provides clarity: is the project where it should be? What are the real risks – not the reported ones? What measures are needed to bring the initiative back on track? The result is a concrete action catalogue – not a report nobody reads.
+A **Project Forecast** provides clarity: is the project where it should be? What are the real risks – not the reported ones? What measures are needed to bring the initiative back on track? The result is a concrete action catalogue – not a report nobody reads.
 
-[To the Project Review →](/consulting/#project-review)
+[To the Project Forecast →](/consulting/#project-forecast)
 
 ---
 
@@ -43,9 +43,9 @@ A **Project Review** provides clarity: is the project where it should be? What a
 
 An initiative is taking shape. The idea is clear, the budget not yet approved – or not yet quantified. What's missing are answers to the real questions: is this technically feasible the way we're imagining it? What will it actually cost? And what risks do we need to understand before we commit?
 
-A **Pilot** delivers exactly that: not a presentation, but working software – in a defined scope, with the sole purpose of creating the decision basis for the full project.
+A **Project Setup** delivers exactly that: not a presentation, but working software – in a defined scope, with the sole purpose of creating the decision basis for the full project.
 
-[To the Pilot →](/consulting/#pilot-delivery)
+[To the Project Setup →](/consulting/#project-setup)
 
 ---
 

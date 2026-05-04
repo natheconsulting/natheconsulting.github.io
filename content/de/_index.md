@@ -13,8 +13,10 @@ hero:
   fullscreen_desktop: false
   headings:
     heading: "KI-Projekte, die wirklich liefern."
-    sub_heading: "Consulting · Interim-Management · KI"
-    text: "Technologieprojekte scheitern nicht an der Technologie – sie scheitern daran, dass der geschäftliche Nutzen aus dem Blick gerät. Ich sorge dafür, dass er es nicht tut."
+    sub_heading: "Consulting · Interim-Management · Unternehmenskritische Projekte"
+    text: "Konsequente Strategieumsetzung, nachhaltiger Business-Nutzen, beherrschte Risiken. <br>
+    Unternehmenskritische KI-Projekte müssen von Beginn professionell aufgesetzt und fortlaufend ins Ziel gesteuert werden. <br>
+    Mit Consulting und Interim-Management erreichen wir für Sie genau das!"
     text_color: "#ffffff"
     text_color_dark: "#ffffff"
   background:

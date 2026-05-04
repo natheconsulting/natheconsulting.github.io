@@ -62,15 +62,15 @@
 		<div class="hero-content row{{ delimit $hero_content_classes " " }}">
 
 			{{ if .hero.headings }}
-                <div class="col-12 {{ if $image }}col-md-6{{ else }}col-md-8{{ end }} hero-text">
+                <div class="col-12 {{ if $image }}col-md-6{{ else }}col-md-10{{ end }} hero-text">
                     {{ if $heading }}
-                        <h1>{{ $heading }}</h1>
+                        <h1>{{ $heading | safeHTML }}</h1>
                     {{ end }}
                     {{ if $sub_heading }}
-                        <h2>{{ $sub_heading }}</h2>
+                        <h2>{{ $sub_heading | safeHTML }}</h2>
                     {{ end }}
                     {{ if $text }}
-                        <p>{{ $text }}</p>
+                        <p>{{ $text | safeHTML }}</p>
                     {{ end }}
 
                     {{ if .hero.buttons }}
